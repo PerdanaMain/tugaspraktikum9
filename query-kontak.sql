@@ -1,0 +1,2 @@
+CREATE TABLE `p-kontak`.`kontak` ( `id` INT(4) NOT NULL , `nama` VARCHAR(30) NOT NULL , `jkel` VARCHAR(10) NULL , `email` VARCHAR(40) NULL , `alamat` VARCHAR(50) NULL , `kota` VARCHAR(20) NULL , `pesan` TEXT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `p-kontak`.`user` ( `id-user` INT(20) NOT NULL AUTO_INCREMENT , `email` VARCHAR(50) NOT NULL , `pass` VARCHAR(50) NOT NULL , PRIMARY KEY (`id-user`)) ENGINE = InnoDB;
